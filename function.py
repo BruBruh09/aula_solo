@@ -21,10 +21,15 @@ def multiplicarDoisNUmeros (nota03, nota04):
 
     return print(resultado)
 
+
 def cadastrar (nome, idade):
     data = {
         "nome": nome,
         "idade": idade
     }
     return print(data)
-cadastrar("bruno", 16)
+
+nome = input("digite seu nome: ")
+idade = int(input("digite sua idade:"))
+
+cadastrar(nome, idade)
