@@ -7,7 +7,7 @@ def soma ():
     return resultado
 
 def somarDoisNumeros(nota01, nota02):
-    resultado = nota01 + nuta02
+    resultado = nota01 + nota02
 
     return print(resultado)
 
